@@ -182,3 +182,18 @@ body{
   .icon:hover {
     color: #ffffff;
   }
+
+
+
+  @media screen and (max-width: 768px) {
+    .main-cards {
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin-bottom: 0;
+    }
+    .charts {
+      grid-template-columns: 1fr;
+      margin-top: 30px;
+    }
+    
+  }
